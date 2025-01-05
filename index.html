@@ -1,19 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Meta Tags -->
+    <!-- Change This
+    1. Website url in index and sitemap and robots.
+    2. Mobile no in index.
+    3. Favicon, logo image and other images in index.
+    4. Meta tags data.
+    -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pushkar Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+    
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pushkar Guide - Your Ultimate Travel Guide to Pushkar, Rajasthan</title>
+    <meta name="description" content="Explore the best places to visit, top attractions, and travel tips for Pushkar, Rajasthan. Your ultimate travel guide for exploring Pushkar's rich culture, temples, and the famous Camel Fair.">
+    <meta name="keywords" content="Pushkar guide, things to do in Pushkar, Pushkar travel tips, best places in Pushkar, Pushkar Camel Fair, Pushkar temples, travel to Pushkar, Pushkar Rajasthan, Pushkar shopping, Pushkar history, Pushkar sightseeing">
+    <meta name="author" content="Pushkar Guide">
+    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noarchive">
+
+    <!-- Open Graph Meta Tags (for Social Media Sharing) -->
+    <meta property="og:title" content="Pushkar Guide - Your Ultimate Travel Guide to Pushkar, Rajasthan">
+    <meta property="og:description" content="Explore the best places to visit, top attractions, and travel tips for Pushkar, Rajasthan. Your ultimate travel guide for exploring Pushkar's rich culture, temples, and the famous Camel Fair.">
+    <meta property="og:image" content="https://github.com/mahipals90/pushkarguide/blob/main/pushkarview.jpg?raw=true">
+    <meta property="og:url" content="https://mywebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pushkar Guide - Your Ultimate Travel Guide to Pushkar, Rajasthan">
+    <meta name="twitter:description" content="Explore the best places to visit, top attractions, and travel tips for Pushkar, Rajasthan. Your ultimate travel guide for exploring Pushkar's rich culture, temples, and the famous Camel Fair.">
+    <meta name="twitter:image" content="https://github.com/mahipals90/pushkarguide/blob/main/pushkarview.jpg?raw=true">
+    <meta name="twitter:url" content="https://mywebsite.com">
+
+    <!-- Schema Markup (Structured Data) for Local Business -->
+    <script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "TravelAgency",
+    "name": "Pushkar Guide",
+    "url": "https://mywebsite.com",
+    "description": "Explore the best places to visit, top attractions, and travel tips for Pushkar, Rajasthan.",
+    "logo": "https://github.com/mahipals90/pushkarguide/blob/main/favicon.png?raw=true",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-XXXXXXXXXX",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": "English"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Pushkar",
+        "addressLocality": "Pushkar",
+        "addressRegion": "Rajasthan",
+        "postalCode": "305022",
+        "addressCountry": "IN"
+    }
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://github.com/mahipals90/pushkarguide/blob/main/favicon.png?raw=true" type="image/x-icon">
+
+    <!-- Additional Meta Tags for SEO -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Canonical Link (to avoid duplicate content issues) -->
+    <link rel="canonical" href="https://mywebsite.com">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="brand-icon">ॐ</span>
             <span class="brand-text" data-translate="nav_brand">Pushkar Guide</span>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
         </div>
         <div class="nav-menu">
             <a href="#home" class="nav-link" data-translate="nav_home">Home</a>
@@ -63,141 +132,207 @@
     <section id="explore" class="explore">
         <div class="section-header">
             <h2 data-translate="explore_title">Sacred Destinations</h2>
-            <p data-translate="explore_subtitle">Discover the divine essence of Pushkar through its temples and ghats</p>
+            <p data-translate="explore_subtitle">Discover the divine essence of Pushkar through its temples and sacred sites</p>
         </div>
 
         <div class="places-grid">
             <!-- Pushkar Lake -->
-            <div class="place-card">
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414774-4d6ea45a9a49" alt="Pushkar Lake">
+                    <img src="https://remotetraveler.com/wp-content/uploads/2014/10/Pushkar-lake-in-the-evening.jpg" 
+                         alt="Sacred Pushkar Lake during sunset with ghats and temples"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
                 </div>
                 <div class="place-content">
-                    <div class="place-tag" data-translate="pushkar_lake_tag">Must Visit</div>
-                    <h3 data-translate="pushkar_lake_title">Pushkar Lake</h3>
-                    <p data-translate="pushkar_lake_description">The sacred heart of Pushkar, featuring 52 ghats where pilgrims take ritual baths.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <span data-translate="pushkar_lake_best_time">Best Time: Sunrise & Sunset</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span data-translate="pushkar_lake_location">Central Pushkar</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Sacred Lake</div>
+                    <h3 itemprop="name">Pushkar Lake</h3>
+                    <p itemprop="description">One of India's most sacred lakes, surrounded by 52 bathing ghats and over 500 temples. The lake is believed to have been created by Lord Brahma's lotus petals.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
 
             <!-- Brahma Temple -->
-            <div class="place-card">
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414123-4d6ea45a9a49" alt="Brahma Temple">
+                    <img src="https://images.unsplash.com/photo-1624363414123-4d6ea45a9a49" 
+                         alt="Ancient Brahma Temple in Pushkar - one of the few Brahma temples in the world"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
                 </div>
                 <div class="place-content">
-                    <div class="place-tag" data-translate="brahma_temple_tag">Spiritual</div>
-                    <h3 data-translate="brahma_temple_title">Brahma Temple</h3>
-                    <p data-translate="brahma_temple_description">One of the few temples dedicated to Lord Brahma in the world, featuring stunning marble architecture.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <span data-translate="brahma_temple_timings">6:30 AM - 8:30 PM</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-info-circle"></i>
-                            <span data-translate="brahma_temple_note">No Photography Inside</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Ancient Temple</div>
+                    <h3 itemprop="name">Brahma Temple</h3>
+                    <p itemprop="description">Built in the 14th century, this temple is one of the few dedicated to Lord Brahma worldwide.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
 
             <!-- Savitri Temple -->
-            <div class="place-card">
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414234-4d6ea45a9a49" alt="Savitri Temple">
+                    <img src="https://images.unsplash.com/photo-1624363414234-4d6ea45a9a49" 
+                         alt="Savitri Temple in Pushkar - a hilltop temple with panoramic views"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
                 </div>
                 <div class="place-content">
-                    <div class="place-tag" data-translate="savitri_temple_tag">Panoramic Views</div>
-                    <h3 data-translate="savitri_temple_title">Savitri Temple</h3>
-                    <p data-translate="savitri_temple_description">Perched on Ratnagiri Hill, offering breathtaking views of Pushkar and the Thar Desert.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-hiking"></i>
-                            <span data-translate="savitri_temple_trek">30 min trek</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-sun"></i>
-                            <span data-translate="savitri_temple_best_time">Best for Sunrise</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Hilltop Temple</div>
+                    <h3 itemprop="name">Savitri Temple</h3>
+                    <p itemprop="description">Dedicated to Brahma's first wife Savitri, this temple sits atop Ratnagiri Hill, requiring a challenging trek or cable car ride.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
+
+            <!-- Pushkar Camel Fair -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-image">
+                    <img src="https://images.unsplash.com/photo-1624363414234-4d6ea45a9a49" 
+                         alt="Pushkar Camel Fair - a vibrant cultural event in Rajasthan"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
+                </div>
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Cultural Event</div>
+                    <h3 itemprop="name">Pushkar Camel Fair</h3>
+                    <p itemprop="description">One of the largest and most vibrant livestock fairs in the world, the Pushkar Camel Fair draws thousands of visitors every year.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Rangji Temple -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-image">
+                    <img src="https://images.unsplash.com/photo-1624363414456-4d6ea45a9a49" 
+                         alt="Rangji Temple in Pushkar - a unique architectural marvel"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
+                </div>
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">South Indian Style</div>
+                    <h3 itemprop="name">Rangji Temple</h3>
+                    <p itemprop="description">A unique architectural marvel combining South Indian, Rajasthani, and Mughal styles.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
 
             <!-- Pushkar Bazaar -->
-            <div class="place-card">
-                <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414345-4d6ea45a9a49" alt="Pushkar Bazaar">
-                </div>
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-content">
-                    <div class="place-tag" data-translate="pushkar_bazaar_tag">Shopping</div>
-                    <h3 data-translate="pushkar_bazaar_title">Pushkar Bazaar</h3>
-                    <p data-translate="pushkar_bazaar_description">Vibrant market known for traditional crafts, textiles, and Rajasthani souvenirs.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-shopping-bag"></i>
-                            <span data-translate="pushkar_bazaar_best_buys">Best Buys: Jewelry & Textiles</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <span data-translate="pushkar_bazaar_timings">Evening Market</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Market</div>
+                    <h3 itemprop="name">Pushkar Bazaar</h3>
+                    <p itemprop="description">A vibrant marketplace famous for textiles, jewelry, and handicrafts.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
 
-            <!-- Camel Fair Ground -->
-            <div class="place-card">
+            <!-- Varaha Temple -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414456-4d6ea45a9a49" alt="Camel Fair">
+                    <img src="https://images.unsplash.com/photo-1624363414567-4d6ea45a9a49" 
+                         alt="Varaha Temple in Pushkar - an ancient temple with intricate stone carvings"
+                         itemprop="image"
+                         loading="lazy"
+                         width="800"
+                         height="600">
                 </div>
                 <div class="place-content">
-                    <div class="place-tag" data-translate="camel_fair_tag">Cultural</div>
-                    <h3 data-translate="camel_fair_title">Pushkar Camel Fair</h3>
-                    <p data-translate="camel_fair_description">World's largest camel fair featuring traditional performances and desert culture.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-calendar-alt"></i>
-                            <span data-translate="camel_fair_date">November (Kartik Purnima)</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-star"></i>
-                            <span data-translate="camel_fair_performances">Cultural Performances</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Ancient Temple</div>
+                    <h3 itemprop="name">Varaha Temple</h3>
+                    <p itemprop="description">One of Pushkar's oldest temples, dedicated to Varaha, Vishnu's boar incarnation.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
+
+            <!-- Man Mahal -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Heritage Palace</div>
+                    <h3 itemprop="name">Man Mahal</h3>
+                    <p itemprop="description">A stunning palace-turned-heritage hotel built by Raja Man Singh I.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Pap Mochani Temple -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Hill Temple</div>
+                    <h3 itemprop="name">Pap Mochani Temple</h3>
+                    <p itemprop="description">Situated on a hilltop, this temple is believed to absolve devotees of their sins.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Old Rangji Temple -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Historic Temple</div>
+                    <h3 itemprop="name">Old Rangji Temple</h3>
+                    <p itemprop="description">The original Rangji temple showcases pure Rajasthani architecture with intricate stone carvings and traditional paintings.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Pushkar Fort -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Heritage Site</div>
+                    <h3 itemprop="name">Pushkar Fort</h3>
+                    <p itemprop="description">A historic fortification offering panoramic views of Pushkar.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Gayatri Temple -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Sacred Temple</div>
+                    <h3 itemprop="name">Gayatri Temple</h3>
+                    <p itemprop="description">Dedicated to Goddess Gayatri, this serene temple features traditional architecture and beautiful gardens.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
+
+            <!-- Sunset Point -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Scenic Spot</div>
+                    <h3 itemprop="name">Sunset Point</h3>
+                    <p itemprop="description">A picturesque viewpoint offering breathtaking views of Pushkar Lake and the Aravalli range.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
 
             <!-- Rose Garden -->
-            <div class="place-card">
-                <div class="place-image">
-                    <img src="https://images.unsplash.com/photo-1624363414567-4d6ea45a9a49" alt="Rose Garden">
-                </div>
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
                 <div class="place-content">
-                    <div class="place-tag" data-translate="rose_garden_tag">Nature</div>
-                    <h3 data-translate="rose_garden_title">Rose Garden</h3>
-                    <p data-translate="rose_garden_description">Famous for its aromatic roses used in making attars and rose products.</p>
-                    <div class="place-info">
-                        <div class="info-item">
-                            <i class="fas fa-leaf"></i>
-                            <span data-translate="rose_garden_products">Famous: Rose Products</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <span data-translate="rose_garden_best_time">Early Morning Visit</span>
-                        </div>
-                    </div>
+                    <div class="place-tag" itemprop="touristType">Nature</div>
+                    <h3 itemprop="name">Rose Garden</h3>
+                    <p itemprop="description">Pushkar's famous rose gardens produce world-renowned flowers used in perfumes and attars.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
                 </div>
-            </div>
+            </article>
+
+            <!-- Additional Temples -->
+            <article class="place-card" itemscope itemtype="http://schema.org/TouristAttraction">
+                <div class="place-content">
+                    <div class="place-tag" itemprop="touristType">Sacred Sites</div>
+                    <h3 itemprop="name">More Sacred Sites</h3>
+                    <p itemprop="description">Explore Atmateshwar Temple's ancient Shiva lingam, Sri Sankat Mochan Hanuman Temple's vibrant ceremonies, Shree Shyam Temple's beautiful architecture, and Saraswati Temple's peaceful surroundings.</p>
+                    <meta itemprop="address" content="Pushkar, Rajasthan, India">
+                </div>
+            </article>
         </div>
     </section>
 
@@ -234,9 +369,6 @@
                     <p data-translate="footer_description_2">The annual Pushkar Camel Fair attracts thousands with its unique blend of tradition and festivity. Visitors can enjoy breathtaking sunsets from Savitri Temple and explore the charm of Pushkar's quaint streets.</p>
                     <p data-translate="footer_description_3">A haven for spiritual seekers and cultural enthusiasts, Pushkar offers a harmonious blend of history, devotion, and natural beauty, making it a must-visit destination.</p>
                 </div>
-                <div class="footer-contact">
-                    <p data-translate="footer_contact">Your Guide: <span>+91 98765 43210</span></p>
-                </div>
             </div>
         </div>
         <div class="footer-bottom">
@@ -245,6 +377,39 @@
     </footer>
 
     <!-- JavaScript -->
+    <script>
+        // Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/js/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navMenu = document.querySelector('.nav-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileMenuBtn.querySelector('i').classList.toggle('fa-bars');
+            mobileMenuBtn.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                navMenu.classList.remove('active');
+                mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+            }
+        });
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>
